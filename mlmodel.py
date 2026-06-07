@@ -26,6 +26,7 @@ def health_check():
         'statuc': 'ok',
         'version': model_version,
         'model_loaded': model is not None,
-        'edited': "pl"
+        'edited': "pl",
+        "return": "hello"
     }
 
