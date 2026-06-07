@@ -27,6 +27,7 @@ def health_check():
         'version': model_version,
         'model_loaded': model is not None,
         'edited': "pl",
-        "return": "hello"
+        "return": "hello",
+        "hi":"bye"
     }
 
